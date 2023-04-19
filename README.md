@@ -19,6 +19,8 @@ For other devices you will need to run the python script with the file input win
 4. Paste the python code into the text box (after you have made your specific changes to the python script)
 5. Save the Automator Quick Action and now you'll be able to right click on any gcode file and upload it to Creality Cloud
 
+The Automator document should be set up as shown in the image below:
+
 <img width="1652" alt="image" src="https://user-images.githubusercontent.com/130921240/233007417-691428d2-53f2-48aa-b2b6-da31b8b8ea8e.png">
 
 
