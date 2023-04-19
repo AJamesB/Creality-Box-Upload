@@ -3,17 +3,17 @@ Python script that automatically uploads code to crealitycloud.com
 
 ## General Setup
 
-To use the script you will need an installation of python 3 and you will have to have the required libraries installed.
+To use the script you will need an installation of Python 3 and you will have to have the required libraries installed.
 Use Terminal or Command Prompt or whatever command-line emulator you use on your computer to install Selenium.
 
-Go through the python file and customise as needs be.
+Go through the Python file and customise as needs be.
 For Mac you can use an automator quick action to just rightclick on the saved gcode files.
 For other devices you will need to run the python script with the file input window.
 
 
 ## Automator Quick Action Setup
 
-1. Open Automator and create a new document and selec "Quick Action"
+1. Open Automator and create a new document and select "Quick Action"
 2. Edit the workflow input (at the top) so that the "Workflow recieves current" is set to "files or folders"
 3. Drop in a "Run Shell Script" action and set the "Shell:" to "/usr/local/bin/python3", and set "Pass input:" to "as arguments"
 4. Paste the python code into the text box (after you have made your specific changes to the python script)
